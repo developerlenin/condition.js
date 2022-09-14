@@ -6,30 +6,53 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
 	  </head>
+	  <!-- <body> -->
+	  
+	  <!-- <script> -->
+	    
+		   <!-- var persononeage = 28; -->
+		   <!-- var persontwoage = 26; -->
+		   
+		   <!-- if (persononeage > persontwoage){ -->
+		   <!-- document.write('person one allow'); -->
+		   <!-- } -->
+		    
+		    <!-- if (persononeage <persontwoage){ -->
+		   <!-- document.write('true'); -->
+		   <!-- } -->
+	   <!-- if (persontwoage> persononeage){ -->
+		   <!-- document.write('true'); -->
+		   <!-- } -->
+		    <!-- if (persontwoage < persononeage){ -->
+		   <!-- document.write('true'); -->
+		   <!-- } -->
+	  <!-- </script> -->
+	  <!-- </body> -->
+	  
 	  <body>
+	  <p id="word"></p>
+	  <script>
+	      var hour=new Date().getHours(); 
+		  var say;
+		  
+		  if(hour<12){
+		  say="good morning" ;
+		  }
+		  else if(hour>12){
+		  say="good afternoon";
+		  }
+		  else if(hour>18){
+		   say="good evening";
+		  }
+		  document.getElementById("word").innerHTML =say;
+	  
+	  </script>
 	  
 	  <script>
-	    
-		   var persononeage = 28;
-		   var persontwoage = 26;
-		   
-		   if (persononeage > persontwoage){
-		   document.write('person one allow');
-		   <br>}
-		   
-		    if (persononeage <persontwoage){
-		   document.write('true');
-		   }
-	   if (persontwoage> persononeage){
-		   document.write('true');
-		   }
-		    if (persontwoage < persononeage){
-		   document.write('true');
-		   }
 	  
-	  
-	  
-	  
+	  function splitNum(num) {
+    return String(num).split("").map(Number);
+}
 	  
 	  
 	  
@@ -39,4 +62,49 @@
 	  
 	  
 	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 	  </body>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
